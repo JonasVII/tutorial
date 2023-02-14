@@ -1,0 +1,41 @@
+body,html{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.conteudo{
+    display:flex;
+    flex-direction: row;
+    background-color: silver;
+    justify-content: space-around;
+    flex-wrap: wrap
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(10, 0, 95);
+    border-width: 3px;
+    align-content: space-around;
+    
+}
+
+
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: rgb(10, 0, 95);
+    border-width: 3px;
+    align-content: space-around;
+    padding: 20px;
+    margin: 5px;
+    flex-direction: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
